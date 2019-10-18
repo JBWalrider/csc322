@@ -1,0 +1,5 @@
+wc `grep -l int *`
+This prints out the number of lines/words/characters in each file containing int.  The output from grep is treated as an argument to wc.
+
+grep -l int * | wc
+This prints out the number of lines/words/characters in the filenames of each file containing int.  The output from grep is treated as the input text that wc operates on, not as an argument to wc.

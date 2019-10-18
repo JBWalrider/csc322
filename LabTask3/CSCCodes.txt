@@ -1,0 +1,1 @@
+head -n12 CSCCodes | tail -n8 | grep -E '\bC[Ss][Cc][0-9]{3}\b'

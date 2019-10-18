@@ -1,0 +1,2 @@
+cp ~csc322/Ticker.c ./Ticker.c
+gcc -Wall ./Ticker.c -o Ticker

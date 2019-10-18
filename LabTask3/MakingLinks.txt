@@ -1,0 +1,8 @@
+mkdir LabTask3 && cd LabTask3
+mkdir Originals && cd Originals
+vi HardStuff
+vi SoftStuff
+cd ..
+mkdir Links && cd Links
+ln ../Originals/HardStuff LinkToHardStuff
+ln ../Originals/SoftStuff RelativeToSoftStuff

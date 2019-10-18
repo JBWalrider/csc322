@@ -1,0 +1,8 @@
+./Ticker 5 & ./Ticker 7
+^Z
+jobs
+bg %2
+fg %1
+^Z
+kill %1
+kill %2
